@@ -16,7 +16,7 @@ func TestName(t *testing.T) {
 		product := entity.Products{
 			Name: "",
 			Price: 45,
-			SKU: "ABC55555",
+			SKU: "ABC12345",
 		}
 
 		ok, err := govalidator.ValidateStruct(product)
