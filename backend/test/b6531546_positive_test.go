@@ -8,7 +8,7 @@ import (
 	"product.com/entity"
 )
 
-func TestStudentID(t *testing.T) {
+func TestName(t *testing.T) {
 
 	g := NewGomegaWithT(t)
 
